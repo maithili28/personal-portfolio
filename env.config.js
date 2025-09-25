@@ -1,6 +1,7 @@
 
 const API_CONFIG = {
-  BASE_URL: window.ENV?.VITE_API_URL || import.meta.env.VITE_API_URL, 
+  // BASE_URL: window.ENV?.VITE_API_URL || import.meta.env.VITE_API_URL,
+  BASE_URL: "https://portfolio-env.eba-nkk2djex.ap-south-1.elasticbeanstalk.com",
 
   // API endpoints
   ENDPOINTS: {
