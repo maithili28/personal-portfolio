@@ -5,7 +5,7 @@ const API_CONFIG = {
 
   // API endpoints
   ENDPOINTS: {
-    PORTFOLIO: "/api/portfolio/:id",
+    PORTFOLIO: "/portfolio/:id",
     TIMEOUT: import.meta.env.VITE_API_TIMEOUT,
   },
 };
